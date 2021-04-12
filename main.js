@@ -141,7 +141,7 @@ for(let num = 0; num < 10; ++num){
     empty.push(num);
 }
 
-console.log(empty)
+console.log(empty);
 
 // Objects in Javascript
 // dictionary in python
@@ -163,3 +163,45 @@ student.first = "Abhishek"; // change value
 console.log(student.first);
 student.age -= 3;
 console.log(student.studentInfo());
+
+// Conditionals, control flows (if else)
+// 18-35 are target demographic
+// && Logical AND
+// || Logical OR
+
+// var age = prompt("What's your age?"); // maybe let won't work in many cases
+var age = 12; // maybe let won't work in many cases
+
+if(age >= 18 && age <= 35){
+    status = "demo";
+    console.log(status);
+}else{
+    status = "not my audi";
+    console.log(status);
+}
+
+// Switch statements
+// differentiate between weekday vs weekend
+// day 0 --> sunday
+// day 6 --> saturday
+// day 4 --> thursday --> weekday
+
+switch(6){
+    case 0: 
+        text = 'weekend';
+        break;
+    case 5:
+        text = 'weekend';
+        break;
+    case 6:
+        text = 'weekend';
+        break;
+    default:
+        text = 'weekday';
+}
+
+console.log(text);
+
+// json : javascript object notation
+// contains data in light form
+// in context with python it contains dictionaries inside a list (in array form)
