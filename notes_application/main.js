@@ -37,6 +37,7 @@ const addNewNote = (text = '') => {
     // deleting a node
     delBtn.addEventListener('click', () => {
         note.remove();
+        updateLSData();
     })
 
     textArea.value = text;
