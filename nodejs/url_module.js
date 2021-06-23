@@ -11,5 +11,3 @@ var qu = q.query;
 
 console.log(qu.year);
 console.log(qu.month);
-
-
